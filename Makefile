@@ -1,5 +1,5 @@
 init:
-	composer install && chmod -R 0777 app/runtime && mkdir -p _db/pg10 && mkdir -p _db/pg11  \
+	composer install && mkdir app/runtime && chmod -R 0777 app/runtime && mkdir -p _db/pg10 && mkdir -p _db/pg11  \
 && mkdir -p _db/pg12 && mkdir -p _db/pg13 && docker-compose up -d
 
 migrate:
