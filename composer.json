@@ -1,0 +1,26 @@
+{
+    "name": "insolita/pg_test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "insolita",
+            "email": "webmaster100500@ya.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "fakerphp/faker": "^1.13"
+    }
+}

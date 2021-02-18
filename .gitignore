@@ -1,0 +1,4 @@
+_db/*
+vendor
+app/runtime
+composer.lock
